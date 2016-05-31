@@ -1,0 +1,35 @@
+html {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+svg {
+  background: #efecea;
+}
+
+rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
+
+.node {
+  cursor: pointer;
+  stroke: #f9c535;
+  stroke-width: 1.5px;
+}
+
+.node text{
+  fill: black;
+  stroke: none;
+  text-anchor: middle;
+}
+
+.link {
+  fill: none;
+  stroke: #f9c535;
+  stroke-width: 1.5px;
+}
+
+text.title {
+  text-anchor: middle;
+}
